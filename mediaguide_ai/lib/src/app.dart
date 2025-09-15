@@ -24,7 +24,6 @@ class MediGuideApp extends ConsumerWidget {
       ),
       navigatorKey: rootNavigatorKey,
       routes: {
-        '/': (context) => const RootNav(),
         '/dashboard': (context) => const DashboardScreen(),
         '/symptoms': (context) => const SymptomCheckerScreen(),
         '/scan': (context) => const MedicineScannerScreen(),
