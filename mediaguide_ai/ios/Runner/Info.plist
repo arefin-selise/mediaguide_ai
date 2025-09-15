@@ -45,5 +45,20 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- Deep link: custom scheme mediaguide:// -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.example.mediaguide</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>mediaguide</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
